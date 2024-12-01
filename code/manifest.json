@@ -1,0 +1,10 @@
+{
+  "name": "Compete@Codeforces",
+  "description": "This extension give you real time compete environment with your friend at codeforces.Sit back and enjoy Competitive Programming",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "c@c.html",
+    "default_icon": "c@c.png"
+  }
+}
