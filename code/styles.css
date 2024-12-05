@@ -10,9 +10,14 @@ body {
     color:rgb(5,223,5);
   }
   button {
-    padding: 10px;
+    padding: 2px;
     margin: 5px;
-    color:rgb(5,223,5);
+    color:rgb(5, 223, 5);
+    background-color: black;
 
     
+  }
+  #room-id{
+    background-color:black;
+    color:rgb(5,223,5);
   }
