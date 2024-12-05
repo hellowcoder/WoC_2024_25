@@ -1,4 +1,21 @@
-const read=require('prompt-sync')()
-let b = [2,4,5,6,7]
-b.splice(2,0,100,104) //index 2 ko remand pe liya uske bad ke 0 element ko delete kiya then index 2 se hi 100,104 ko insert kar diya.
-console.log(b)  
+// let company=["bloomberg",'google','meta','uber','IBM','netflix']
+// company.shift()
+// company.splice(2,1,"Ola")
+// company.pop()
+// company.push("Amazon")
+// company.unshift("AI")
+// console.log(company.slice(2,5).toString())
+
+const read=require('prompt-sync')();
+let str=read("Enter your string")
+const number=(str) =>{
+    let count=0
+    for(let i=0;i<str.length;i++){
+        
+        if(str[i]=='a'|| str[i]=='e'|| str[i]=='i'|| str[i]=='o'|| str[i]=='u'){
+            count++
+        }
+    }
+    return count
+}
+console.log(number(str))

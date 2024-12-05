@@ -1,5 +1,5 @@
 const createRoomButton = document.getElementById("create-room");
-const joinRoomButton = document.getElementById("join-room");
+const joinRoomButton = document.getElementById("join");
 const roomIdInput = document.getElementById("room-id");
 const statusDiv = document.getElementById("status");
 
