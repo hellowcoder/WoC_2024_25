@@ -19,5 +19,5 @@ joinRoomButton.addEventListener("click", async () => {
   } else {
     statusDiv.textContent = "Enter a valid Room ID!";
   }
-});3
+});
 

@@ -1,4 +1,3 @@
-@import 'bulma/css/bulma.css';
 
 
 body {
@@ -38,4 +37,16 @@ body {
     margin: 5px;
     background-color:rgb(154, 253, 136);
     color:antiquewhite;
+  }
+  #status{
+    color:antiquewhite;
+    background-color: rgb(107,107,200);
+    /* /* width:150px;
+    height:150px; */
+    padding: 2px;
+    margin: 5px; 
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 200px;
   }

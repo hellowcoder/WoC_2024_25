@@ -7,15 +7,14 @@
 // console.log(company.slice(2,5).toString())
 
 const read=require('prompt-sync')();
-let str=read("Enter your string")
-const number=(str) =>{
-    let count=0
-    for(let i=0;i<str.length;i++){
-        
-        if(str[i]=='a'|| str[i]=='e'|| str[i]=='i'|| str[i]=='o'|| str[i]=='u'){
-            count++
-        }
-    }
-    return count
+let number=read("Enter n:   ");
+let num=[];
+for(let i=1;i<=number;i++){
+    num[i-1]=i;
 }
-console.log(number(str))
+const add=num.reduce((result,value)=>{return result+value})
+const mul=num.reduce((final,val)=>{return final*val})
+
+console.log(num)
+console.log(add)
+console.log(mul)
