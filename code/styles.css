@@ -1,0 +1,52 @@
+
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(107, 107, 245);
+   
+  }
+  .popup {
+    padding: 10px;
+    text-align: center;
+    color:antiquewhite;
+  }
+  #create-room {
+    padding: 2px;
+    margin: 5px;
+    color:antiquewhite;
+    background-color: tomato;
+    width: 150px;
+  }
+  #join {
+    padding: 2px;
+    margin: 5px;
+  
+    color:antiquewhite;
+    background-color: green;
+   
+    width: 150px;
+    
+  }
+  
+  
+  #room-id{
+    width: 150px;
+    padding: 2px;
+    margin: 5px;
+    background-color:rgb(154, 253, 136);
+    color:antiquewhite;
+  }
+  #status{
+    color:antiquewhite;
+    background-color: rgb(107,107,200);
+    /* width:150px;
+    height:150px; */
+    padding: 2px;
+    margin: 5px; 
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 200px;
+  }
